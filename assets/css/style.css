@@ -1013,7 +1013,9 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*header top css end*/
 
 /* 2.2 header middel css here */
-
+.logo h1{
+  color: white;
+}
 @media only screen and (max-width: 767px) {
   .logo {
     text-align: center;
@@ -4738,6 +4740,12 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 
 .shipping_icone {
   margin-right: 14px;
+}
+
+.shipping_icone i{
+  font-size: 28px;
+  margin-top: 5px;
+  color: #ffd54c;
 }
 
 .shipping_content h2 {
