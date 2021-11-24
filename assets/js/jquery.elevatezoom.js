@@ -1743,7 +1743,7 @@ if ( typeof Object.create !== 'function' ) {
 			scrollZoomIncrement: 0.1,  //steps of the scrollzoom
 			minZoomLevel: false,
 			maxZoomLevel: false,
-			easing: false,
+			easing: true,
 			easingAmount: 12,
 			lensSize: 200,
 			zoomWindowWidth: 400,
